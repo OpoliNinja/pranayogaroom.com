@@ -1,0 +1,403 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Masajes y Ayurveda | Prana Yoga Room</title>
+  <meta name="description" content="Masajes y Ayurveda en Prana Yoga Room. Relajación profunda y rituales personalizados para el bienestar integral en Zapopan.">
+  <meta name="theme-color" content="#e8d9cc">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <header id="site-header" class="group fixed inset-x-0 top-0 z-50 bg-[#f5efe9]/95 backdrop-blur border-b border-[#e8d9cc]/70 shadow-[0_12px_30px_rgba(58,47,42,0.12)] is-sticky">
+    <nav class="mx-auto flex w-full max-w-6xl items-center justify-between gap-8 px-4 py-5">
+      <a class="flex items-center gap-4" href="index.html" aria-label="Prana Yoga Room inicio">
+        <img src="./assets/logo/Prana_Yoga_logo-04.png" alt="Prana Yoga Room" class="h-12 w-auto md:h-14" />
+        <span class="text-base font-semibold uppercase tracking-[0.18em] text-[#8c6a4a] md:text-lg">Prana Yoga Room</span>
+      </a>
+
+      <div class="hidden items-center gap-6 text-sm font-medium md:flex">
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="index.html">Inicio</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="sobre-mi.html">Sobre mí</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="yoga.html">Yoga</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="masajes.html">Masajes</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="cuencos.html">Cuencos</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="redes.html">Redes</a>
+        <a class="rounded-full bg-[#8c6a4a] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-[#7a5b41]" href="contacto.html">Contacto</a>
+      </div>
+
+      <button
+        id="mobile-menu-toggle"
+        class="group relative flex h-11 w-11 items-center justify-center rounded-full border border-[#8c6a4a] text-[#8c6a4a] transition hover:bg-[#8c6a4a] hover:text-white md:hidden"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span class="sr-only">Abrir menú</span>
+        <span class="flex flex-col gap-1.5">
+          <span class="block h-0.5 w-6 bg-current transition duration-300 ease-out group-[.is-open]:translate-y-2 group-[.is-open]:rotate-45"></span>
+          <span class="block h-0.5 w-6 bg-current transition duration-300 ease-out group-[.is-open]:opacity-0"></span>
+          <span class="block h-0.5 w-6 bg-current transition duration-300 ease-out group-[.is-open]:-translate-y-2 group-[.is-open]:-rotate-45"></span>
+        </span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="bg-[#f5efe9] pt-28 pb-16">
+    <div class="mx-auto w-full max-w-6xl px-4">
+      <section id="masajes" class="relative scroll-mt-28 overflow-hidden rounded-[32px] bg-[#3a2f2a] text-white shadow-[0_18px_40px_rgba(58,47,42,0.16)]">
+        <img
+          src="./assets/pictures/IMG_20250403_065522.jpg"
+          alt="Masajes terapéuticos en Prana Yoga Room"
+          class="absolute inset-0 h-full w-full object-cover"
+        />
+        <div class="absolute inset-0 bg-gradient-to-r from-black/75 via-black/40 to-transparent"></div>
+        <div class="relative flex min-h-[320px] items-center px-6 py-14 md:min-h-[360px] md:px-10 md:py-16">
+          <div class="max-w-xl rounded-3xl bg-white/10 p-6 backdrop-blur-xl md:p-8">
+            <p class="text-xs uppercase tracking-[0.35em] text-white/70">Masajes & Ayurveda</p>
+            <h1 class="mt-4 text-3xl font-semibold md:text-4xl">Relajación profunda y rituales que equilibran tu bienestar.</h1>
+            <p class="mt-4 text-sm text-white/80 md:text-base">
+              Dos experiencias complementarias para liberar tensión, mejorar tu energía y recuperar calma física y mental.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a class="rounded-full border border-white/30 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white/80 transition hover:border-white hover:text-white" href="#masajes">Masajes</a>
+              <a class="rounded-full border border-white/30 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white/80 transition hover:border-white hover:text-white" href="#ayurveda">Ayurveda</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-12 md:mt-16">
+        <div class="grid items-center gap-10 md:grid-cols-[1.1fr_0.9fr]">
+          <div>
+            <p class="text-xs uppercase tracking-[0.35em] text-[#8c6a4a]">Sobre el servicio</p>
+            <h2 class="mt-4 text-3xl text-[#3a2f2a] md:text-4xl">Masajes diseñados para tu cuerpo y tu momento.</h2>
+            <p class="mt-4 text-sm text-[#3a2f2a]/75 md:text-base">
+              Cada masaje se adapta a tus necesidades físicas y emocionales. Trabajamos con técnicas suaves y profundas para reducir
+              tensión, aliviar dolor muscular y favorecer el descanso.
+            </p>
+            <p class="mt-4 text-sm text-[#3a2f2a]/75 md:text-base">
+              El objetivo es que salgas con una sensación de ligereza, calma y renovación, siempre en un ambiente seguro y respetuoso.
+            </p>
+            <a class="mt-6 inline-flex rounded-full bg-[#8c6a4a] px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-[#7a5b41]" href="contacto.html">
+              Consulta disponibilidad
+            </a>
+          </div>
+
+          <div class="rounded-3xl bg-white p-6 shadow-[0_18px_40px_rgba(58,47,42,0.08)] md:p-8">
+            <p class="text-xs uppercase tracking-[0.35em] text-[#8c6a4a]">Beneficios</p>
+            <ul class="mt-5 space-y-4 text-sm text-[#3a2f2a]/75">
+              <li class="flex gap-3">
+                <span class="mt-1 h-2 w-2 rounded-full bg-[#8c6a4a]"></span>
+                <span>Disminución de tensión muscular y rigidez.</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 h-2 w-2 rounded-full bg-[#8c6a4a]"></span>
+                <span>Mejora de circulación y sensación de ligereza.</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 h-2 w-2 rounded-full bg-[#8c6a4a]"></span>
+                <span>Relajación profunda y descanso mental.</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 h-2 w-2 rounded-full bg-[#8c6a4a]"></span>
+                <span>Apoyo para recuperar movilidad y bienestar.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="ayurveda" class="mt-12 scroll-mt-28 md:mt-16">
+        <div class="relative overflow-hidden rounded-[36px] bg-[#3a2f2a] text-white shadow-[0_22px_50px_rgba(58,47,42,0.2)]">
+          <img
+            src="./assets/pictures/IMG_20250424_185432.jpg"
+            alt="Ayurveda en Prana Yoga Room"
+            class="absolute inset-0 h-full w-full object-cover"
+          />
+          <div class="absolute inset-0 bg-gradient-to-r from-black/75 via-black/45 to-transparent"></div>
+          <div class="absolute -left-10 top-10 h-40 w-40 rounded-full bg-[#8c6a4a]/30 blur-3xl"></div>
+          <div class="absolute -bottom-10 right-0 h-48 w-48 rounded-full bg-white/10 blur-3xl"></div>
+
+          <div class="relative grid gap-8 px-6 py-16 md:grid-cols-[1.1fr_0.9fr] md:items-center md:px-10 md:py-20">
+            <div class="max-w-xl">
+              <p class="text-xs uppercase tracking-[0.35em] text-white/70">Ayurveda</p>
+              <h2 class="mt-4 text-3xl font-semibold md:text-4xl">Equilibrio natural a través de rituales personalizados.</h2>
+              <p class="mt-4 text-sm text-white/80 md:text-base">
+                Integramos el enfoque ayurvédico dentro de la experiencia de masajes con aceites, hábitos conscientes y acompañamiento cercano.
+              </p>
+              <div class="mt-6 flex flex-wrap gap-3">
+                <span class="rounded-full border border-white/30 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white/80">Diagnóstico integral</span>
+                <span class="rounded-full border border-white/30 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white/80">Rituales</span>
+                <span class="rounded-full border border-white/30 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white/80">Bienestar</span>
+              </div>
+            </div>
+
+            <div class="rounded-3xl bg-white/10 p-6 backdrop-blur-xl md:p-8">
+              <p class="text-xs uppercase tracking-[0.35em] text-white/70">Tu sesión</p>
+              <ul class="mt-4 space-y-4 text-sm text-white/80">
+                <li class="flex gap-3">
+                  <span class="mt-1 h-2 w-2 rounded-full bg-white/70"></span>
+                  <span>Evaluación de hábitos y necesidades actuales.</span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1 h-2 w-2 rounded-full bg-white/70"></span>
+                  <span>Aplicación de aceites y técnicas específicas.</span>
+                </li>
+                <li class="flex gap-3">
+                  <span class="mt-1 h-2 w-2 rounded-full bg-white/70"></span>
+                  <span>Recomendaciones prácticas para tu día a día.</span>
+                </li>
+              </ul>
+              <a class="mt-6 inline-flex rounded-full border border-white/70 px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-white hover:text-[#3a2f2a]" href="contacto.html">
+                Consultar
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-12 md:mt-16">
+        <div class="grid items-center gap-10 md:grid-cols-[1.1fr_0.9fr]">
+          <div>
+            <p class="text-xs uppercase tracking-[0.35em] text-[#8c6a4a]">Ayurveda integrado</p>
+            <h2 class="mt-4 text-3xl text-[#3a2f2a] md:text-4xl">Tratamientos que equilibran tu energía y bienestar.</h2>
+            <p class="mt-4 text-sm text-[#3a2f2a]/75 md:text-base">
+              El Ayurveda es una medicina ancestral que busca el equilibrio natural del cuerpo y la mente. En Prana Yoga Room diseñamos
+              rituales personalizados con aceites, masajes y hábitos conscientes para recuperar armonía.
+            </p>
+            <p class="mt-4 text-sm text-[#3a2f2a]/75 md:text-base">
+              También puedes conocer productos sugeridos para continuar tu cuidado en casa, sin venta directa obligatoria.
+            </p>
+            <a class="mt-6 inline-flex rounded-full bg-[#8c6a4a] px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-[#7a5b41]" href="contacto.html">
+              Agenda tu ritual
+            </a>
+          </div>
+
+          <div class="rounded-3xl bg-white p-6 shadow-[0_18px_40px_rgba(58,47,42,0.08)] md:p-8">
+            <p class="text-xs uppercase tracking-[0.35em] text-[#8c6a4a]">Beneficios Ayurveda</p>
+            <ul class="mt-5 space-y-4 text-sm text-[#3a2f2a]/75">
+              <li class="flex gap-3">
+                <span class="mt-1 h-2 w-2 rounded-full bg-[#8c6a4a]"></span>
+                <span>Mejora del equilibrio emocional y físico.</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 h-2 w-2 rounded-full bg-[#8c6a4a]"></span>
+                <span>Rutinas de autocuidado para el día a día.</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 h-2 w-2 rounded-full bg-[#8c6a4a]"></span>
+                <span>Reducción de estrés y tensión acumulada.</span>
+              </li>
+              <li class="flex gap-3">
+                <span class="mt-1 h-2 w-2 rounded-full bg-[#8c6a4a]"></span>
+                <span>Conexión cuerpo-mente más profunda.</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-12 md:mt-16">
+        <div class="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div>
+            <p class="text-xs uppercase tracking-[0.35em] text-[#8c6a4a]">Galería</p>
+            <h2 class="mt-4 text-3xl text-[#3a2f2a] md:text-4xl">Un ambiente pensado para el descanso.</h2>
+          </div>
+          <a class="rounded-full border border-[#8c6a4a] px-5 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[#8c6a4a] transition hover:bg-[#8c6a4a] hover:text-white" href="contacto.html">
+            Agenda tu masaje
+          </a>
+        </div>
+
+        <div class="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <figure class="group relative overflow-hidden rounded-3xl">
+            <div class="aspect-[4/3]">
+              <img src="./assets/pictures/IMG_20250403_085014.jpg" alt="Sesión de masajes" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent opacity-0 transition duration-500 group-hover:opacity-100"></div>
+            <figcaption class="absolute bottom-4 left-4 text-xs uppercase tracking-[0.3em] text-white/80 opacity-0 transition duration-500 group-hover:opacity-100">Relajación</figcaption>
+          </figure>
+
+          <figure class="group relative overflow-hidden rounded-3xl">
+            <div class="aspect-[4/3]">
+              <img src="./assets/pictures/IMG_20250526_191912.jpg" alt="Ambiente de descanso" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent opacity-0 transition duration-500 group-hover:opacity-100"></div>
+            <figcaption class="absolute bottom-4 left-4 text-xs uppercase tracking-[0.3em] text-white/80 opacity-0 transition duration-500 group-hover:opacity-100">Bienestar</figcaption>
+          </figure>
+
+          <figure class="group relative overflow-hidden rounded-3xl lg:row-span-2">
+            <div class="aspect-[3/4] lg:aspect-auto lg:h-full">
+              <img src="./assets/pictures/IMG_20250424_185432.jpg" alt="Detalles del espacio" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent opacity-0 transition duration-500 group-hover:opacity-100"></div>
+            <figcaption class="absolute bottom-4 left-4 text-xs uppercase tracking-[0.3em] text-white/80 opacity-0 transition duration-500 group-hover:opacity-100">Calma</figcaption>
+          </figure>
+
+          <figure class="group relative overflow-hidden rounded-3xl md:col-span-2">
+            <div class="aspect-[16/9]">
+              <img src="./assets/pictures/IMG_20250407_202117.jpg" alt="Espacio de masajes en Prana Yoga Room" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent opacity-0 transition duration-500 group-hover:opacity-100"></div>
+            <figcaption class="absolute bottom-4 left-4 text-xs uppercase tracking-[0.3em] text-white/80 opacity-0 transition duration-500 group-hover:opacity-100">Espacio</figcaption>
+          </figure>
+
+          <figure class="group relative overflow-hidden rounded-3xl">
+            <div class="aspect-[4/3]">
+              <img src="./assets/pictures/IMG_20250411_234749.jpg" alt="Sesión terapéutica" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent opacity-0 transition duration-500 group-hover:opacity-100"></div>
+            <figcaption class="absolute bottom-4 left-4 text-xs uppercase tracking-[0.3em] text-white/80 opacity-0 transition duration-500 group-hover:opacity-100">Cuidado</figcaption>
+          </figure>
+
+          <figure class="group relative overflow-hidden rounded-3xl">
+            <div class="aspect-[4/3]">
+              <img src="./assets/pictures/IMG_20250407_185416.jpg" alt="Momentos de relajación" class="h-full w-full object-cover transition duration-500 group-hover:scale-105" />
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-black/45 via-black/10 to-transparent opacity-0 transition duration-500 group-hover:opacity-100"></div>
+            <figcaption class="absolute bottom-4 left-4 text-xs uppercase tracking-[0.3em] text-white/80 opacity-0 transition duration-500 group-hover:opacity-100">Descanso</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="mt-12 md:mt-16">
+        <div class="grid items-center gap-8 rounded-[32px] bg-white p-6 shadow-[0_18px_40px_rgba(58,47,42,0.08)] md:grid-cols-[0.9fr_1.1fr] md:p-10">
+          <div class="grid gap-3">
+            <div class="grid grid-cols-2 gap-3">
+              <img src="./assets/pictures/IMG_20250403_085014.jpg" alt="Ambiente relajante" class="h-28 w-full rounded-2xl object-cover md:h-36" />
+              <img src="./assets/pictures/IMG_20250526_191912.jpg" alt="Sesión de masajes" class="h-28 w-full rounded-2xl object-cover md:h-36" />
+            </div>
+            <img src="./assets/pictures/IMG_20250424_185432.jpg" alt="Detalles de bienestar" class="h-36 w-full rounded-2xl object-cover md:h-48" />
+          </div>
+
+          <div>
+            <p class="text-xs uppercase tracking-[0.35em] text-[#8c6a4a]">Tu próxima sesión</p>
+            <h2 class="mt-4 text-3xl text-[#3a2f2a] md:text-4xl">Regálate un momento de descanso profundo.</h2>
+            <p class="mt-4 text-sm text-[#3a2f2a]/75 md:text-base">
+              Agenda tu masaje y siente cómo tu cuerpo se libera del estrés y la tensión con una experiencia personalizada.
+            </p>
+            <div class="mt-6 flex flex-wrap gap-3">
+              <a class="rounded-full bg-[#8c6a4a] px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#7a5b41]" href="contacto.html">
+                Agenda tu masaje
+              </a>
+              <a class="rounded-full border border-[#8c6a4a] px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-[#8c6a4a] transition hover:bg-[#8c6a4a] hover:text-white" href="contacto.html">
+                Pregunta disponibilidad
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="bg-[#3a2f2a] text-white">
+    <div class="mx-auto w-full max-w-6xl px-4 py-16 md:py-20">
+      <div class="grid gap-10 md:grid-cols-[1.3fr_0.9fr_0.9fr_0.9fr]">
+        <div class="space-y-5">
+          <div class="flex items-center gap-4">
+            <img src="./assets/logo/Prana_Yoga_logo-03.png" alt="Prana Yoga Room" class="h-12 w-auto" />
+            <div>
+              <p class="text-xs uppercase tracking-[0.3em] text-white/70">Prana Yoga Room</p>
+              <p class="text-lg font-semibold">Bienestar integral en Zapopan</p>
+            </div>
+          </div>
+          <p class="text-sm text-white/75">
+            Un espacio cálido y profesional para recuperar movilidad, fuerza e independencia con acompañamiento cercano.
+          </p>
+          <a class="inline-flex rounded-full border border-white/70 px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-white hover:text-[#3a2f2a]" href="contacto.html">
+            Agenda por WhatsApp
+          </a>
+        </div>
+
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-white/60">Servicios</p>
+          <ul class="mt-5 space-y-3 text-sm text-white/80">
+            <li><a class="transition hover:text-white" href="yoga.html">Yoga</a></li>
+            <li><a class="transition hover:text-white" href="masajes.html">Masajes</a></li>
+            <li><a class="transition hover:text-white" href="cuencos.html">Cuencos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-white/60">Contacto</p>
+          <ul class="mt-5 space-y-3 text-sm text-white/80">
+            <li>Zapopan, Jalisco</li>
+            <li><a class="transition hover:text-white" href="tel:+52">+52 (33) 0000 0000</a></li>
+            <li><a class="transition hover:text-white" href="mailto:hola@pranayogaroom.com">hola@pranayogaroom.com</a></li>
+            <li><a class="transition hover:text-white" href="contacto.html">Escríbenos por WhatsApp</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-white/60">Comunidad</p>
+          <ul class="mt-5 space-y-3 text-sm text-white/80">
+            <li><a class="transition hover:text-white" href="redes.html">Instagram</a></li>
+            <li><a class="transition hover:text-white" href="redes.html">Facebook</a></li>
+            <li><a class="transition hover:text-white" href="redes.html">Google Maps</a></li>
+            <li><a class="transition hover:text-white" href="redes.html">Reseñas</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-white/60 md:flex-row md:items-center md:justify-between">
+        <p>© 2026 Prana Yoga Room. Todos los derechos reservados.</p>
+        <div class="flex flex-wrap gap-4">
+          <a class="transition hover:text-white" href="aviso-de-privacidad.html">Aviso de privacidad</a>
+          <a class="transition hover:text-white" href="terminos.html">Términos y condiciones</a>
+          <a class="transition hover:text-white" href="cookies.html">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div
+    id="mobile-menu"
+    class="fixed inset-0 z-[60] flex opacity-0 pointer-events-none transition-opacity duration-300 md:hidden"
+    aria-hidden="true"
+  >
+    <button
+      type="button"
+      class="absolute inset-0 bg-[#3a2f2a]/40 backdrop-blur-sm"
+      data-mobile-menu-close
+      aria-label="Cerrar menú"
+    ></button>
+    <div
+      id="mobile-menu-panel"
+      class="relative ml-auto flex h-full w-[82%] max-w-xs translate-x-full flex-col gap-6 bg-[#f5efe9] p-6 shadow-2xl transition-transform duration-300"
+    >
+      <div class="flex items-center justify-between">
+        <span class="text-sm font-semibold uppercase tracking-[0.18em] text-[#8c6a4a]">Menú</span>
+        <button
+          type="button"
+          class="flex h-10 w-10 items-center justify-center rounded-full border border-[#8c6a4a] text-[#8c6a4a] transition hover:bg-[#8c6a4a] hover:text-white"
+          data-mobile-menu-close
+          aria-label="Cerrar menú"
+        >
+          ✕
+        </button>
+      </div>
+
+      <div class="flex flex-col gap-4 text-lg font-medium">
+        <a class="transition hover:text-[#8c6a4a]" href="index.html">Inicio</a>
+        <a class="transition hover:text-[#8c6a4a]" href="sobre-mi.html">Sobre mí</a>
+        <a class="transition hover:text-[#8c6a4a]" href="yoga.html">Yoga</a>
+        <a class="transition hover:text-[#8c6a4a]" href="masajes.html">Masajes</a>
+        <a class="transition hover:text-[#8c6a4a]" href="cuencos.html">Cuencos</a>
+        <a class="transition hover:text-[#8c6a4a]" href="redes.html">Redes</a>
+      </div>
+
+      <a
+        class="mt-auto rounded-full bg-[#8c6a4a] px-5 py-3 text-center text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-[#7a5b41]"
+        href="contacto.html"
+      >
+        Contacto
+      </a>
+    </div>
+  </div>
+</body>
+</html>
+

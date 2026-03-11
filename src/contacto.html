@@ -1,0 +1,248 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contacto | Prana Yoga Room</title>
+  <meta name="description" content="Contacto Prana Yoga Room. Agenda tu sesión por WhatsApp, teléfono o correo y visita nuestro espacio en Zapopan.">
+  <meta name="theme-color" content="#e8d9cc">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./output.css">
+  <script src="./js/main.js" defer></script>
+</head>
+<body>
+  <header id="site-header" class="group fixed inset-x-0 top-0 z-50 bg-[#f5efe9]/95 backdrop-blur border-b border-[#e8d9cc]/70 shadow-[0_12px_30px_rgba(58,47,42,0.12)] is-sticky">
+    <nav class="mx-auto flex w-full max-w-6xl items-center justify-between gap-8 px-4 py-5">
+      <a class="flex items-center gap-4" href="index.html" aria-label="Prana Yoga Room inicio">
+        <img src="./assets/logo/Prana_Yoga_logo-04.png" alt="Prana Yoga Room" class="h-12 w-auto md:h-14" />
+        <span class="text-base font-semibold uppercase tracking-[0.18em] text-[#8c6a4a] md:text-lg">Prana Yoga Room</span>
+      </a>
+
+      <div class="hidden items-center gap-6 text-sm font-medium md:flex">
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="index.html">Inicio</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="sobre-mi.html">Sobre mí</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="yoga.html">Yoga</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="masajes.html">Masajes</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="cuencos.html">Cuencos</a>
+        <a class="text-[#3a2f2a] transition hover:text-[#8c6a4a]" href="redes.html">Redes</a>
+        <a class="rounded-full bg-[#8c6a4a] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-[#7a5b41]" href="contacto.html">Contacto</a>
+      </div>
+
+      <button
+        id="mobile-menu-toggle"
+        class="group relative flex h-11 w-11 items-center justify-center rounded-full border border-[#8c6a4a] text-[#8c6a4a] transition hover:bg-[#8c6a4a] hover:text-white md:hidden"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span class="sr-only">Abrir menú</span>
+        <span class="flex flex-col gap-1.5">
+          <span class="block h-0.5 w-6 bg-current transition duration-300 ease-out group-[.is-open]:translate-y-2 group-[.is-open]:rotate-45"></span>
+          <span class="block h-0.5 w-6 bg-current transition duration-300 ease-out group-[.is-open]:opacity-0"></span>
+          <span class="block h-0.5 w-6 bg-current transition duration-300 ease-out group-[.is-open]:-translate-y-2 group-[.is-open]:-rotate-45"></span>
+        </span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="bg-[#f5efe9] pt-28 pb-16">
+    <div class="mx-auto w-full max-w-6xl px-4">
+      <section class="rounded-[32px] bg-white p-8 shadow-[0_18px_40px_rgba(58,47,42,0.08)] md:p-12">
+        <div class="grid gap-10 md:grid-cols-[1.05fr_0.95fr]">
+          <div>
+            <p class="text-xs uppercase tracking-[0.35em] text-[#8c6a4a]">Contacto</p>
+            <h1 class="mt-4 text-3xl text-[#3a2f2a] md:text-4xl">Estamos listos para ayudarte a iniciar tu proceso.</h1>
+            <p class="mt-4 text-sm text-[#3a2f2a]/75 md:text-base">
+              Completa el formulario y genera un mensaje directo a WhatsApp con todos tus datos. También puedes escribirnos por teléfono o correo.
+            </p>
+
+            <form class="mt-8 grid gap-4" data-whatsapp-form data-whatsapp-number="5213312345678">
+              <div class="grid gap-4 md:grid-cols-2">
+                <label class="grid gap-2 text-sm text-[#3a2f2a]/75">
+                  Nombre completo
+                  <input class="h-12 rounded-2xl border border-[#e8d9cc] px-4 text-[#3a2f2a] focus:outline-none focus:ring-2 focus:ring-[#8c6a4a]/40" name="name" type="text" placeholder="Tu nombre" required />
+                </label>
+                <label class="grid gap-2 text-sm text-[#3a2f2a]/75">
+                  Teléfono
+                  <input class="h-12 rounded-2xl border border-[#e8d9cc] px-4 text-[#3a2f2a] focus:outline-none focus:ring-2 focus:ring-[#8c6a4a]/40" name="phone" type="tel" placeholder="(33) 0000 0000" required />
+                </label>
+              </div>
+
+              <label class="grid gap-2 text-sm text-[#3a2f2a]/75">
+                Servicio de interés
+                <select class="h-12 rounded-2xl border border-[#e8d9cc] px-4 text-[#3a2f2a] focus:outline-none focus:ring-2 focus:ring-[#8c6a4a]/40" name="service" required>
+                  <option value="Yoga">Yoga adaptado</option>
+                  <option value="Masajes">Masajes terapéuticos</option>
+                  <option value="Masajes y Ayurveda">Masajes y Ayurveda</option>
+                  <option value="Cuencos">Cuencos</option>
+                  <option value="Otro">Otro</option>
+                </select>
+              </label>
+
+              <label class="grid gap-2 text-sm text-[#3a2f2a]/75">
+                Horario preferido
+                <input class="h-12 rounded-2xl border border-[#e8d9cc] px-4 text-[#3a2f2a] focus:outline-none focus:ring-2 focus:ring-[#8c6a4a]/40" name="schedule" type="text" placeholder="Ej. Mañanas o sábados" />
+              </label>
+
+              <label class="grid gap-2 text-sm text-[#3a2f2a]/75">
+                Mensaje
+                <textarea class="min-h-[120px] rounded-2xl border border-[#e8d9cc] px-4 py-3 text-[#3a2f2a] focus:outline-none focus:ring-2 focus:ring-[#8c6a4a]/40" name="message" placeholder="Cuéntanos brevemente qué necesitas."></textarea>
+              </label>
+
+              <div class="rounded-2xl border border-[#d8c2ab] bg-[#f5efe9] px-4 py-3">
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-[#8c6a4a]">Confirmación antes de enviar</p>
+                <p class="mt-2 text-sm text-[#3a2f2a]/70">
+                  Se abrirá WhatsApp con un mensaje prellenado. Podrás revisarlo y ajustarlo antes de enviarlo definitivamente.
+                </p>
+              </div>
+
+              <button class="mt-2 rounded-full bg-[#8c6a4a] px-6 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-[#7a5b41]" type="submit">
+                Enviar por WhatsApp
+              </button>
+            </form>
+          </div>
+
+          <div class="space-y-6">
+            <div class="rounded-3xl bg-[#f5efe9] p-6">
+              <p class="text-xs uppercase tracking-[0.35em] text-[#8c6a4a]">Contacto directo</p>
+              <ul class="mt-4 space-y-3 text-sm text-[#3a2f2a]/75">
+                <li><strong class="text-[#3a2f2a]">Teléfono:</strong> <a class="transition hover:text-[#8c6a4a]" href="tel:+523300000000">+52 (33) 0000 0000</a></li>
+                <li><strong class="text-[#3a2f2a]">WhatsApp:</strong> <a class="transition hover:text-[#8c6a4a]" href="https://wa.me/5213312345678" target="_blank" rel="noopener">Escríbenos directo</a></li>
+                <li><strong class="text-[#3a2f2a]">Correo:</strong> <a class="transition hover:text-[#8c6a4a]" href="mailto:hola@pranayogaroom.com">hola@pranayogaroom.com</a></li>
+                <li><strong class="text-[#3a2f2a]">Dirección:</strong> Zapopan, Jalisco, México</li>
+              </ul>
+            </div>
+
+            <div class="rounded-3xl bg-[#f5efe9] p-6">
+              <p class="text-xs uppercase tracking-[0.35em] text-[#8c6a4a]">Horarios</p>
+              <ul class="mt-4 space-y-3 text-sm text-[#3a2f2a]/75">
+                <li><strong class="text-[#3a2f2a]">Lunes a viernes:</strong> 8:00 - 20:00</li>
+                <li><strong class="text-[#3a2f2a]">Sábado:</strong> 9:00 - 14:00</li>
+                <li><strong class="text-[#3a2f2a]">Domingo:</strong> Cerrado</li>
+              </ul>
+            </div>
+
+            <div class="overflow-hidden rounded-3xl shadow-[0_18px_40px_rgba(58,47,42,0.08)]">
+              <iframe
+                title="Mapa Prana Yoga Room"
+                src="https://www.google.com/maps?q=Zapopan%2C%20Jalisco%2C%20Mexico&output=embed"
+                class="h-72 w-full border-0"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="bg-[#3a2f2a] text-white">
+    <div class="mx-auto w-full max-w-6xl px-4 py-16 md:py-20">
+      <div class="grid gap-10 md:grid-cols-[1.3fr_0.9fr_0.9fr_0.9fr]">
+        <div class="space-y-5">
+          <div class="flex items-center gap-4">
+            <img src="./assets/logo/Prana_Yoga_logo-03.png" alt="Prana Yoga Room" class="h-12 w-auto" />
+            <div>
+              <p class="text-xs uppercase tracking-[0.3em] text-white/70">Prana Yoga Room</p>
+              <p class="text-lg font-semibold">Bienestar integral en Zapopan</p>
+            </div>
+          </div>
+          <p class="text-sm text-white/75">
+            Un espacio cálido y profesional para recuperar movilidad, fuerza e independencia con acompañamiento cercano.
+          </p>
+          <a class="inline-flex rounded-full border border-white/70 px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white transition hover:bg-white hover:text-[#3a2f2a]" href="contacto.html">
+            Agenda por WhatsApp
+          </a>
+        </div>
+
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-white/60">Servicios</p>
+          <ul class="mt-5 space-y-3 text-sm text-white/80">
+            <li><a class="transition hover:text-white" href="yoga.html">Yoga</a></li>
+            <li><a class="transition hover:text-white" href="masajes.html">Masajes</a></li>
+            <li><a class="transition hover:text-white" href="cuencos.html">Cuencos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-white/60">Contacto</p>
+          <ul class="mt-5 space-y-3 text-sm text-white/80">
+            <li>Zapopan, Jalisco</li>
+            <li><a class="transition hover:text-white" href="tel:+52">+52 (33) 0000 0000</a></li>
+            <li><a class="transition hover:text-white" href="mailto:hola@pranayogaroom.com">hola@pranayogaroom.com</a></li>
+            <li><a class="transition hover:text-white" href="contacto.html">Escríbenos por WhatsApp</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="text-xs uppercase tracking-[0.3em] text-white/60">Comunidad</p>
+          <ul class="mt-5 space-y-3 text-sm text-white/80">
+            <li><a class="transition hover:text-white" href="redes.html">Instagram</a></li>
+            <li><a class="transition hover:text-white" href="redes.html">Facebook</a></li>
+            <li><a class="transition hover:text-white" href="redes.html">Google Maps</a></li>
+            <li><a class="transition hover:text-white" href="redes.html">Reseñas</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-xs text-white/60 md:flex-row md:items-center md:justify-between">
+        <p>© 2026 Prana Yoga Room. Todos los derechos reservados.</p>
+        <div class="flex flex-wrap gap-4">
+          <a class="transition hover:text-white" href="aviso-de-privacidad.html">Aviso de privacidad</a>
+          <a class="transition hover:text-white" href="terminos.html">Términos y condiciones</a>
+          <a class="transition hover:text-white" href="cookies.html">Cookies</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div
+    id="mobile-menu"
+    class="fixed inset-0 z-[60] flex opacity-0 pointer-events-none transition-opacity duration-300 md:hidden"
+    aria-hidden="true"
+  >
+    <button
+      type="button"
+      class="absolute inset-0 bg-[#3a2f2a]/40 backdrop-blur-sm"
+      data-mobile-menu-close
+      aria-label="Cerrar menú"
+    ></button>
+    <div
+      id="mobile-menu-panel"
+      class="relative ml-auto flex h-full w-[82%] max-w-xs translate-x-full flex-col gap-6 bg-[#f5efe9] p-6 shadow-2xl transition-transform duration-300"
+    >
+      <div class="flex items-center justify-between">
+        <span class="text-sm font-semibold uppercase tracking-[0.18em] text-[#8c6a4a]">Menú</span>
+        <button
+          type="button"
+          class="flex h-10 w-10 items-center justify-center rounded-full border border-[#8c6a4a] text-[#8c6a4a] transition hover:bg-[#8c6a4a] hover:text-white"
+          data-mobile-menu-close
+          aria-label="Cerrar menú"
+        >
+          ✕
+        </button>
+      </div>
+
+      <div class="flex flex-col gap-4 text-lg font-medium">
+        <a class="transition hover:text-[#8c6a4a]" href="index.html">Inicio</a>
+        <a class="transition hover:text-[#8c6a4a]" href="sobre-mi.html">Sobre mí</a>
+        <a class="transition hover:text-[#8c6a4a]" href="yoga.html">Yoga</a>
+        <a class="transition hover:text-[#8c6a4a]" href="masajes.html">Masajes</a>
+        <a class="transition hover:text-[#8c6a4a]" href="cuencos.html">Cuencos</a>
+        <a class="transition hover:text-[#8c6a4a]" href="redes.html">Redes</a>
+      </div>
+
+      <a
+        class="mt-auto rounded-full bg-[#8c6a4a] px-5 py-3 text-center text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:bg-[#7a5b41]"
+        href="contacto.html"
+      >
+        Contacto
+      </a>
+    </div>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --color-bg: #f5efe9;
+    --color-primary: #e8d9cc;
+    --color-accent: #8c6a4a;
+    --color-text: #3a2f2a;
+    --color-white: #ffffff;
+  }
+
+  body {
+    margin: 0;
+    font-family: "Lato", "Open Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    background: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Playfair Display", "Cormorant Garamond", serif;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@layer components {
+  .tab-button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    border-radius: 999px;
+    border: 1px solid #e8d9cc;
+    background: #ffffff;
+    padding: 0.9rem 1.25rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #3a2f2a;
+    transition: all 0.2s ease;
+  }
+
+  .tab-button:hover,
+  .tab-button:focus-visible {
+    border-color: #8c6a4a;
+    color: #8c6a4a;
+  }
+
+  .tab-button[aria-selected="true"] {
+    border-color: #8c6a4a;
+    background: #8c6a4a;
+    color: #ffffff;
+    box-shadow: 0 12px 24px rgba(140, 106, 74, 0.25);
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-12px);
+    }
+  }
+
+  @keyframes shine {
+    0% {
+      transform: translateX(-120%);
+      opacity: 0;
+    }
+    15% {
+      opacity: 0.4;
+    }
+    35% {
+      transform: translateX(120%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(120%);
+      opacity: 0;
+    }
+  }
+
+  .animate-float {
+    animation: float 7s ease-in-out infinite;
+  }
+
+  .btn-shine {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-shine::after {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.7), transparent);
+    transform: translateX(-120%);
+    animation: shine 6s ease-in-out infinite;
+  }
+
+  .btn-shine > span {
+    position: relative;
+    z-index: 1;
+  }
+
+  .reveal-item {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+    will-change: opacity, transform;
+  }
+
+  .reveal-item.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
